@@ -1,0 +1,47 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 10rem; */
+    width: 200px;
+    background-color: lightgray;
+    border-radius: 5px;
+    overflow: hidden;
+    gap: 1rem;
+}
+
+.cardImg {
+    width: 200px;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cardImg img {
+    width: 100%;
+}
+
+.cardInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+    width: 100%;
+    padding: 0 1rem;
+}
+
+.watchlistCardButton, .cardButton {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 1rem;
+    margin: 1rem 0;
+}
+
+.cardButton {
+    justify-content: center;
+}

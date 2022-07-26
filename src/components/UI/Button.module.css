@@ -1,0 +1,32 @@
+.button {
+    border: none;
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.addButton, .removeButton {
+    color: white;
+}
+
+.addButton {
+    background-color: limegreen;
+}
+
+.removeButton {
+    background-color: tomato;
+}
+
+.navButton {
+    padding: .3rem .5rem;
+}
+
+.navButton:hover {
+    background-color: gold;
+    /* color: white; */
+}

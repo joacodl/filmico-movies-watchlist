@@ -1,0 +1,13 @@
+.movies {
+    background-color: #121212;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 6rem;
+    justify-content: flex-start;
+    padding: 3rem 2rem;
+    width: 100%;
+    max-height: 100vh;
+    overflow-y: scroll;
+    margin: 3rem auto 0;
+}
+
